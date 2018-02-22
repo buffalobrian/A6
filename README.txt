@@ -1,22 +1,12 @@
-This assignment is worth 40 points:
-( ) site must have real content
-( ) site must explore responsive design
-(X) site must include a carousel with at least 4 pictures
-( ) at least 5 additional bootstrap capabilities (2 points each)
-( ) site must be submitted to competition on CS CONNECT
-
 RESPONSIVE DESIGN:
 | * Navigation bar compresses to hamburger menu when screen is shrunken
-| * 
+| * Columns on Charles Widdicombe will collapse to single column
+| * Carousel width stays equal to screen width
 
 BOOTSTRAP4 FEATURES:
+| * Navigation bar, collapses to hamburger
 | * img-fluid class used for images in carousel
-| *
-| *
-| *
-| *
-
-TEAM MEMBER EVALUATION (0-15pts):
-| Charles Widdicombe: 
-| Brian Yoon:
-| Sean Zusi: 
+| * button group on Charles Widdicombe
+| * Card on Charles Widdicombe
+| * Badges on Sean Zusi
+| * Table on Sean Zusi
