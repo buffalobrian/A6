@@ -1,7 +1,9 @@
 RESPONSIVE DESIGN:
 | * Navigation bar compresses to hamburger menu when screen is shrunken
 | * Columns on Charles Widdicombe will collapse to single column
-| * Carousel width stays equal to screen width
+| * Carousel width stays equal to screen width on Brian Yoon
+| * Carousel pictures will stay at a max height of screen height so the user 
+|   doesn't have to scroll to view the rest of the photo. - Brian Yoon
 
 BOOTSTRAP4 FEATURES:
 | * Navigation bar, collapses to hamburger
@@ -10,3 +12,4 @@ BOOTSTRAP4 FEATURES:
 | * Card on Charles Widdicombe
 | * Badges on Sean Zusi
 | * Table on Sean Zusi
+| * Float left and right classes used in header of Brian Yoon
