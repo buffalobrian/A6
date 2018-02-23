@@ -113,11 +113,15 @@
   <div class="row" style ="margin:auto">
    <div class="col" style="min-width: 50vw; padding:40; display: inline-block;"> 
   <div class="btn-group">
-  <button type="button" class="btn btn-primary">Favorite Movie</button>
-  <button type="button" class="btn btn-primary">Favorite Sing</button>
-  <button type="button" class="btn btn-primary">Favorite Ice Cream</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#movieModal">Favorite Movie</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#songModal">Favorite Song</button>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#iceModal">Favorite Ice Cream Flavor</button>
+	  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#gameModal">Favorite Game</button>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#bookModal">Favorite Book</button>
+
+	
 </div>
-  </div>
+</div>
     <div class="col" style="margin:0;  min-width: 50vw; padding:0"> 
   <div class="card">
   <img class="img-fluid" src="images/cwidd1.jpg" alt="In a Suit">
@@ -128,6 +132,101 @@
 </div>
   
   </div>
+  </div>
+  
+  <div id="movieModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Favorite Movie</h4>
+      </div>
+      <div class="modal-body">
+        <p>Toy Story 3.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="songModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Favorite Song</h4>
+      </div>
+      <div class="modal-body">
+        <p>American Pie</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div id="iceModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Favorite Ice Cream</h4>
+      </div>
+      <div class="modal-body">
+        <p>Raspberry Chip</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+	 </div>
+	  </div>
+	
+	<div id="gameModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Favorite Game</h4>
+      </div>
+      <div class="modal-body">
+        <p>Batman: Arkham City</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+	 </div>
+	  </div>
+	
+	<div id="bookModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Favorite Book</h4>
+      </div>
+      <div class="modal-body">
+        <p>The Blade Itself - Joe Abercrombie</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+	 </div>
+	  </div>
+	
 
 </body>
 
