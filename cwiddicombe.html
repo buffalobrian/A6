@@ -26,8 +26,9 @@
   
    <style>
        .img-fluid{
-        max-width: 50vw
-		max-height:50vw;
+        min-width: 50vw;
+		max-height: 50vh;
+		object-fit: contain;
     }
   </style>
   
@@ -85,14 +86,14 @@
 
     <!-- The slideshow -->
     <div class="carousel-inner">
-         <div class="carousel-item active">
-        <img class="img-fluid" src="images/csmlogo.jpg" alt="CSM Logo">
+         <div class="carousel-item active" style="width = 100%">
+        <img class="img-fluid" src="images/csmlogo.jpg" alt="CSM Logo" >
       </div>
       <div class="carousel-item">
-        <img class="img-fluid" src="images/CS.jpg" alt="CS pic">
+        <img class="img-fluid" src="images/CS.jpg" alt="CS pic" style="width = 100%">
       </div>
       <div class="carousel-item">
-        <img class="img-fluid" src="images/billings.jpg" alt="Billings, MT">
+        <img class="img-fluid" src="images/billings.jpg" alt="Billings, MT" style="width = 100%">
       </div>
       <div class="carousel-item">
         <img class="img-fluid" src="images/controlers.jpg" alt="Video games"
